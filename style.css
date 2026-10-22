@@ -1147,3 +1147,16 @@ body .dentition-exam .odontogram-findings .finding-section {
 }
 .radiograph-panel .rx-toolbar [aria-pressed="true"] { background:#23547b; border-color:#8bd1ff; }
 .radiograph-panel .rx-toolbar button:disabled { opacity:.5; }
+
+/* Non-carious findings are grouped by clinical type. */
+.noncarious-group { display:inline-flex; align-items:center; flex-wrap:nowrap; gap:3px; }
+.noncarious-divider { color:var(--muted,#62748b); font-weight:bold; margin:0 3px; }
+.btn-pit { background:#80cbc4; color:#fff; }
+.btn-deep-groove { background:#4db6ac; color:#fff; }
+.btn-short-margin { background:#42a5f5; color:white; }
+.surface.pit { fill:#80cbc4; stroke:#267f77; stroke-width:2; }
+.surface.deep-groove { fill:#4db6ac; stroke:#267f77; stroke-width:2; }
+.surface.short-margin { fill:#42a5f5; stroke:#1565c0; stroke-width:2; }
+
+.existing-material-group { display:inline-flex; align-items:center; flex-wrap:nowrap; gap:3px; }
+.existing-material-divider { color:var(--muted,#62748b); font-weight:bold; margin:0 3px; }
